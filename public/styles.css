@@ -1,0 +1,136 @@
+@import url(//fonts.googleapis.com/css?family=Roboto&lang=en);
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.md-radio-outer-circle,
+.md-radio-checked .md-radio-outer-circle {
+    border-color: #990ae3 !important;
+}
+
+.md-radio-checked .md-radio-inner-circle {
+    background-color: #990ae3 !important;
+}
+
+.home-max-width {
+    width: 100%;
+}
+
+.home-toolbar {
+    padding: 10px !important;
+}
+
+.home-toolbar-title {
+    flex: 1 1 auto;
+}
+
+.home-card-odd {
+    background-color: #990ae3;
+    color: #EEEEEE;
+}
+
+.home-hr-odd {
+    height: 1px;
+    border-color: #B75AE7;
+    color: #B75AE7;
+    background-color: #B75AE7;
+}
+
+.home-card-label {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.home-card-callstatus {
+    background-color: #DDDDDD;
+    color: #990ae3;
+    padding: 5px;
+}
+
+.home-card-callselect {
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+
+.home-card-callvisualizer {
+    height: 50px;
+    margin-top: 10px
+}
+
+.home-hr-even {
+    height: 1px;
+    border-color: #990ae3;
+    color: #990ae3;
+    background-color: #990ae3;
+}
+
+.home-card-messageList {
+    height: 200px;
+}
+
+.home-card-messageList .md-list-item {
+    font-size: 12px !important;
+    padding: 0 !important;
+}
+
+.home-video-container {
+    opacity: 1;
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: 2s;
+    float: left;
+}
+
+.home-video-local {
+    background-color: #000000;
+}
+
+.home-video-remote {
+    background-color: #333333;
+}
+
+.home-webrtcMessage-container {
+    display: block;
+    width: 100%;
+    min-height: 40px;
+    margin-bottom: 5px;
+}
+
+.home-webrtcMessages-bubble-to {
+    border-radius: 5px;
+    background-color: #990ae3;
+    max-width: 70%;
+    padding: 5px;
+    float: right !important;
+}
+
+.home-webrtcMessages-bubble-to .home-webrtcMessages-bubble-title {
+    color: #dab4e7;
+    font-size: 11px;
+    text-align: right !important;
+}
+
+.home-webrtcMessages-bubble-to .home-webrtcMessages-bubble-body {
+    color: #EEEEEE;
+    font-size: 12px;
+    text-align: right !important;
+}
+
+.home-webrtcMessages-bubble-from {
+    border-radius: 5px;
+    background-color: #DDDDDD;
+    max-width: 70%;
+    padding: 5px;
+}
+
+.home-webrtcMessages-bubble-from .home-webrtcMessages-bubble-title {
+    color: #999999;
+    font-size: 11px;
+}
+
+.home-webrtcMessages-bubble-from .home-webrtcMessages-bubble-body {
+    color: #111111;
+    font-size: 12px;
+}
